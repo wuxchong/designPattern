@@ -1,4 +1,4 @@
-# 引言
+# 状态模式
 在软件开发过程中，应用程序中的有些对象可能会根据不同的情况做出不同的行为，我们把这种对象称为有状态的对象，而把影响对象行为的一个或多个动态变化的属性称为状态。当有状态的对象与外部事件产生互动时，其内部状态会发生改变，从而使得其行为也随之发生改变。如人的情绪有高兴的时候和伤心的时候，不同的情绪有不同的行为，当然外界也会影响其情绪变化。
 
 对这种有状态的对象编程，传统的解决方案是：将这些所有可能发生的情况全都考虑到，然后使用 if-else 语句来做状态判断，再进行不同情况的处理。但当对象的状态很多时，程序会变得很复杂。而且增加新的状态要添加新的 if-else 语句，这违背了“开闭原则”，不利于程序的扩展。
@@ -25,3 +25,94 @@
 - 环境（Context）角色：也称为上下文，它定义了客户感兴趣的接口，维护一个当前状态，并将与状态相关的操作委托给当前状态对象来处理。
 - 抽象状态（State）角色：定义一个接口，用以封装环境对象中的特定状态所对应的行为。
 - 具体状态（Concrete State）角色：实现抽象状态所对应的行为。
+
+
+状态模式包含以下主要角色：
+- 环境（Context）角色：也称为上下文，它定义了客户感兴趣的接口，维护一个当前状态，并将与状态相关的操作委托给当前状态对象来处理。
+- 抽象状态（State）角色：定义一个接口，用以封装环境对象中的特定状态所对应的行为。
+- 具体状态（Concrete State）角色：实现抽象状态所对应的行为。
+
+其结构如图所示：
+![状态模式结构图](https://raw.githubusercontent.com/wuxchong/designPattern/master/behavior/src/state/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9B%BE.png)
+
+2. 模式的实现
+
+状态模式的实现代码如下：
+```
+/**
+ * 状态模式
+ */
+public class StatePatternMain {
+    public static void main(String[] args) {
+        Context context=new Context();    //创建环境
+        context.handle();    //处理请求
+        context.handle();
+        context.handle();
+        context.handle();
+    }
+}
+
+//环境类
+class Context {
+    private State state;
+
+    //定义环境类的初态
+    public Context() {
+        this.state = new ConcreteStateA();
+    }
+
+    //设置新状态
+    void setState(State state) {
+        this.state=state;
+    }
+
+    //读取状态
+    State getState() {
+        return(state);
+    }
+
+    //对请求做处理
+    void handle() {
+        state.handle(this);
+    }
+
+}
+
+//抽象状态类
+abstract class State {
+    public abstract void handle(Context context);
+}
+
+//具体状态A类
+class ConcreteStateA extends State {
+    public void handle(Context context) {
+        System.out.println(context.getState().toString());
+        context.setState(new ConcreteStateB());
+    }
+
+    @Override
+    public String toString() {
+        return "这是状态A";
+    }
+}
+//具体状态B类
+class ConcreteStateB extends State {
+    public void handle(Context context) {
+        System.out.println(context.getState().toString());
+        context.setState(new ConcreteStateA());
+    }
+
+    @Override
+    public String toString() {
+        return "这是状态B";
+    }
+}
+```
+
+序运行结果如下：
+```
+这是状态A
+这是状态B
+这是状态A
+这是状态B
+```
