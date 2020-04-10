@@ -110,7 +110,7 @@ class ConcreteStateB extends State {
 }
 ```
 
-序运行结果如下：
+运行结果如下：
 ```
 这是状态A
 这是状态B
