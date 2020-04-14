@@ -4,7 +4,7 @@
 ## 创建型模式
 这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。
 
-- [工厂模式（Factory Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/factory/FactoryPattern.md)√
+- [工厂模式（Factory Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/factory/md/FactoryPattern.md)√
 - [抽象工厂模式（Abstract Factory Pattern）]()
 - [单例模式（Singleton Pattern）]()
 - [建造者模式（Builder Pattern）]()
@@ -13,7 +13,7 @@
 ## 结构型模式
 这些设计模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。
 
-- [适配器模式（Adapter Pattern）](https://github.com/wuxchong/designPattern/blob/master/structural/src/adapter/AdapterPattern.md)√
+- [适配器模式（Adapter Pattern）](https://github.com/wuxchong/designPattern/blob/master/structural/src/adapter/md/AdapterPattern.md)√
 - [桥接模式（Bridge Pattern）]()
 - [过滤器模式（Filter、Criteria Pattern）]()
 - [组合模式（Composite Pattern）]()
@@ -32,7 +32,7 @@
 - [中介者模式（Mediator Pattern）]()
 - [备忘录模式（Memento Pattern）]()
 - [观察者模式（Observer Pattern）]()
-- [状态模式（State Pattern）](https://github.com/wuxchong/designPattern/blob/master/behavior/src/state/StatePattern.md)√
+- [状态模式（State Pattern）](https://github.com/wuxchong/designPattern/blob/master/behavior/src/state/md/StatePattern.md)√
 - [空对象模式（Null Object Pattern）]()
 - [策略模式（Strategy Pattern）]()
 - [模板模式（Template Pattern）]()
