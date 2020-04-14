@@ -1,5 +1,7 @@
 package factory;
 
+import factory.shape.Shape;
+
 /**
  * 工厂模式
  */

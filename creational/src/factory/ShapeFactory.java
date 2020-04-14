@@ -1,5 +1,10 @@
 package factory;
 
+import factory.shape.Circle;
+import factory.shape.Rectangle;
+import factory.shape.Shape;
+import factory.shape.Square;
+
 public class ShapeFactory {
 
     //使用 getShape 方法获取形状类型的对象
