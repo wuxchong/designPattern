@@ -6,7 +6,7 @@
 
 - [工厂模式（Factory Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/factory/md/FactoryPattern.md)√
 - [抽象工厂模式（Abstract Factory Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/abstractfactory/md/AbstractFactoryPattern.md)√
-- [单例模式（Singleton Pattern）]()
+- [单例模式（Singleton Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/singleton/md/SingletonPattern.md)√
 - [建造者模式（Builder Pattern）]()
 - [原型模式（Prototype Pattern）]()
 
