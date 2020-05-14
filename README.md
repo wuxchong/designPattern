@@ -7,7 +7,7 @@
 - [工厂模式（Factory Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/factory/md/FactoryPattern.md)√
 - [抽象工厂模式（Abstract Factory Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/abstractfactory/md/AbstractFactoryPattern.md)√
 - [单例模式（Singleton Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/singleton/md/SingletonPattern.md)√
-- [建造者模式（Builder Pattern）]()
+- [建造者模式（Builder Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/builder/md/BuilderPattern.md)√
 - [原型模式（Prototype Pattern）]()
 
 ## 结构型模式
@@ -82,3 +82,8 @@
 4. 稳定依赖原则（The Stable Dependencies Principle）
 
 包之间的依赖关系都应该是稳定方向依赖的，包要依赖的包要比自己更具有稳定性。
+
+## 参考文献
+- [Java设计模式](http://c.biancheng.net/design_pattern/)
+- [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/)
+- [菜鸟教程](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
