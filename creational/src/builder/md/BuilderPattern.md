@@ -30,7 +30,7 @@
 
 然后我们创建一个 Meal 类，带有 Item 的 ArrayList 和一个通过结合 Item 来创建不同类型的 Meal 对象的 MealBuilder。BuilderPatternDemo，我们的演示类使用 MealBuilder 来创建一个 Meal。
 
-![建造者模式](https://raw.githubusercontent.com/wuxchong/designPattern/master/creational/src/singleton/picture/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.jpg)
+![建造者模式](https://github.com/wuxchong/designPattern/blob/master/creational/src/builder/picture/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.jpg)
 
 #### 步骤 1
 创建一个表示食物条目和食物包装的接口。
