@@ -8,7 +8,7 @@
 - [抽象工厂模式（Abstract Factory Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/abstractfactory/md/AbstractFactoryPattern.md)√
 - [单例模式（Singleton Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/singleton/md/SingletonPattern.md)√
 - [建造者模式（Builder Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/builder/md/BuilderPattern.md)√
-- [原型模式（Prototype Pattern）]()
+- [原型模式（Prototype Pattern）](https://github.com/wuxchong/designPattern/blob/master/creational/src/peototype/md/PrototypePattern.md)√
 
 ## 结构型模式
 这些设计模式关注类和对象的组合。继承的概念被用来组合接口和定义组合对象获得新功能的方式。
