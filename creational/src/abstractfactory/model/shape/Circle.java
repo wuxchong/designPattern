@@ -1,4 +1,4 @@
-package factory.shape;
+package abstractfactory.model.shape;
 
 public class Circle implements Shape {
     @Override

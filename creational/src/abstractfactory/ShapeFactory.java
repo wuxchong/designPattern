@@ -1,10 +1,10 @@
 package abstractfactory;
 
-import abstractfactory.color.Color;
-import abstractfactory.shape.Circle;
-import abstractfactory.shape.Rectangle;
-import abstractfactory.shape.Shape;
-import abstractfactory.shape.Square;
+import abstractfactory.model.color.Color;
+import abstractfactory.model.shape.Circle;
+import abstractfactory.model.shape.Rectangle;
+import abstractfactory.model.shape.Shape;
+import abstractfactory.model.shape.Square;
 
 public class ShapeFactory extends AbstractFactory {
     @Override

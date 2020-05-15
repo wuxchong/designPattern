@@ -1,4 +1,4 @@
-package factory.shape;
+package factory.model;
 
 public interface Shape {
     void draw();

@@ -1,4 +1,4 @@
-package abstractfactory.color;
+package abstractfactory.model.color;
 
 public class Blue implements Color {
     @Override

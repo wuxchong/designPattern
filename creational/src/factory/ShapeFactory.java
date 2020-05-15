@@ -1,9 +1,9 @@
 package factory;
 
-import factory.shape.Circle;
-import factory.shape.Rectangle;
-import factory.shape.Shape;
-import factory.shape.Square;
+import factory.model.Circle;
+import factory.model.Rectangle;
+import factory.model.Shape;
+import factory.model.Square;
 
 public class ShapeFactory {
 

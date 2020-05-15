@@ -1,6 +1,6 @@
-package state.state;
+package state.model.state;
 
-import state.context.Context;
+import state.model.context.Context;
 
 //具体状态A类
 public class ConcreteStateA extends State {

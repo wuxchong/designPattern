@@ -1,7 +1,7 @@
-package state.context;
+package state.model.context;
 
-import state.state.ConcreteStateA;
-import state.state.State;
+import state.model.state.ConcreteStateA;
+import state.model.state.State;
 
 //环境类
 public class Context {

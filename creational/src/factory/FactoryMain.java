@@ -1,6 +1,6 @@
 package factory;
 
-import factory.shape.Shape;
+import factory.model.Shape;
 
 /**
  * 工厂模式

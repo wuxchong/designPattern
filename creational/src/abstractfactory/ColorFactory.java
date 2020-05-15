@@ -1,10 +1,10 @@
 package abstractfactory;
 
-import abstractfactory.color.Blue;
-import abstractfactory.color.Color;
-import abstractfactory.color.Green;
-import abstractfactory.color.Red;
-import abstractfactory.shape.Shape;
+import abstractfactory.model.color.Blue;
+import abstractfactory.model.color.Color;
+import abstractfactory.model.color.Green;
+import abstractfactory.model.color.Red;
+import abstractfactory.model.shape.Shape;
 
 public class ColorFactory extends AbstractFactory {
     @Override

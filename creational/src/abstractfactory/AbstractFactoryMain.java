@@ -1,7 +1,7 @@
 package abstractfactory;
 
-import abstractfactory.color.Color;
-import abstractfactory.shape.Shape;
+import abstractfactory.model.color.Color;
+import abstractfactory.model.shape.Shape;
 
 public class AbstractFactoryMain {
     public static void main(String[] args) {

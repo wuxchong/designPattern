@@ -1,6 +1,6 @@
-package state.state;
+package state.model.state;
 
-import state.context.Context;
+import state.model.context.Context;
 
 //抽象状态类
 public abstract class State {
