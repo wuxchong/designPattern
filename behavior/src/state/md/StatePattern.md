@@ -34,7 +34,7 @@
 
 其结构如图所示：
 
-![状态模式结构图](https://raw.githubusercontent.com/wuxchong/designPattern/master/behavior/src/state/picture/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9B%BE.png)
+![状态模式结构图](https://github.com/wuxchong/designPattern/blob/master/behavior/src/state/picture/state_pattern_uml_diagram.png)
 
 2. 模式的实现
 
