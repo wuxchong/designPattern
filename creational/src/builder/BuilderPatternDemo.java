@@ -1,6 +1,6 @@
 package builder;
 
-public class BuilderPatternMain {
+public class BuilderPatternDemo {
     public static void main(String[] args) {
         MealBuilder mealBuilder = new MealBuilder();
 

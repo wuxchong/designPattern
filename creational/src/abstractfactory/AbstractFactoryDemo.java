@@ -3,7 +3,7 @@ package abstractfactory;
 import abstractfactory.model.color.Color;
 import abstractfactory.model.shape.Shape;
 
-public class AbstractFactoryMain {
+public class AbstractFactoryDemo {
     public static void main(String[] args) {
         //获取形状工厂
         AbstractFactory shapeFactory = FactoryProducer.getFactory("SHAPE");

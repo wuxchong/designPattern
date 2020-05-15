@@ -88,7 +88,7 @@ public class ShapeFactory {
 #### 步骤 4
 使用该工厂，通过传递类型信息来获取实体类的对象。
 ```java
-public class FactoryMain {
+public class FactoryDemo {
     public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
 

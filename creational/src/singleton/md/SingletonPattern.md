@@ -61,7 +61,7 @@ public class SingleObject {
 #### 步骤 2
 从 singleton 类获取唯一的对象。
 ```java
-public class SingletonMain {
+public class SingletonDemo {
     public static void main(String[] args) {
 
         //不合法的构造函数

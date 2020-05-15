@@ -5,7 +5,7 @@ import factory.model.Shape;
 /**
  * 工厂模式
  */
-public class FactoryMain {
+public class FactoryDemo {
     public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
 

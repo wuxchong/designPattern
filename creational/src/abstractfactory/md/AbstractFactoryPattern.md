@@ -175,7 +175,7 @@ public class FactoryProducer {
 #### 步骤 8
 使用 FactoryProducer 来获取 AbstractFactory，通过传递类型信息来获取实体类的对象。
 ```java
-public class AbstractFactoryMain {
+public class AbstractFactoryDemo {
     public static void main(String[] args) {
         //获取形状工厂
         AbstractFactory shapeFactory = FactoryProducer.getFactory("SHAPE");

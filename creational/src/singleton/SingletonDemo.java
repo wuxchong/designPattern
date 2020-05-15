@@ -1,6 +1,6 @@
 package singleton;
 
-public class SingletonMain {
+public class SingletonDemo {
     public static void main(String[] args) {
 
         //不合法的构造函数

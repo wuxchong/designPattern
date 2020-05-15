@@ -190,7 +190,7 @@ public class MealBuilder {
 #### 步骤7
 使用 MealBuilder 来演示建造者模式（Builder Pattern）。
 ```java
-public class BuilderPatternMain {
+public class BuilderPatternDemo {
     public static void main(String[] args) {
         MealBuilder mealBuilder = new MealBuilder();
 
