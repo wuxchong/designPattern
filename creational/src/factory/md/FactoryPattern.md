@@ -27,7 +27,7 @@
 
 FactoryPatternDemo，我们的演示类使用 ShapeFactory 来获取 Shape 对象。它将向 ShapeFactory 传递信息（CIRCLE / RECTANGLE / SQUARE），以便获取它所需对象的类型。
 
-![状态模式结构图](https://github.com/wuxchong/designPattern/blob/master/creational/src/factory/picture/factory_pattern_uml_diagram.jpg)
+![factory_pattern_uml_diagram.jpg](https://i.loli.net/2020/05/15/bT8dHgfLCDViM61.jpg)
 
 #### 步骤 1
 创建一个接口: 

@@ -33,7 +33,8 @@
 
 SingleObject 类提供了一个静态方法，供外界获取它的静态实例。SingletonPatternDemo，我们的演示类使用 SingleObject 类来获取 SingleObject 对象。
 
-![状态模式结构图](https://github.com/wuxchong/designPattern/blob/master/creational/src/singleton/picture/singleton_pattern_uml_diagram.jpg)
+![singleton_pattern_uml_diagram.jpg](https://i.loli.net/2020/05/15/UYlOWPxZcNFCLpI.jpg)
+
 #### 步骤 1
 创建一个 Singleton 类。
 ```java
